@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activity.MainActivity">
+
+    <TextView
+        android:id="@+id/txt_welcome"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/hiad_20_dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:textSize="16sp"
+        android:text="@string/title_welcome_msg" />
+
+    <Button
+        android:id="@+id/btn_account"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:text="@string/title_activity_account_kit"
+        app:layout_constraintLeft_toLeftOf="@+id/txt_welcome"
+        app:layout_constraintRight_toRightOf="@+id/txt_welcome"
+        app:layout_constraintTop_toBottomOf="@+id/txt_welcome"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginTop="@dimen/size_spacing_smaller"
+        />
+
+    <Button
+        android:id="@+id/btn_push"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:text="@string/title_activity_push_kit"
+        app:layout_constraintLeft_toLeftOf="@+id/btn_account"
+        app:layout_constraintRight_toRightOf="@+id/btn_account"
+        app:layout_constraintTop_toBottomOf="@+id/btn_account"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginTop="@dimen/size_spacing_smaller" />
+
+
+    <Button
+        android:id="@+id/btn_site"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:text="@string/title_activity_site_kit"
+        app:layout_constraintLeft_toLeftOf="@+id/btn_push"
+        app:layout_constraintRight_toRightOf="@+id/btn_push"
+        app:layout_constraintTop_toBottomOf="@+id/btn_push"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginTop="@dimen/size_spacing_smaller" />
+
+
+
+    <Button
+        android:id="@+id/btn_ads"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:text="@string/title_activity_ads_kit"
+        app:layout_constraintLeft_toLeftOf="@+id/btn_site"
+        app:layout_constraintRight_toRightOf="@+id/btn_site"
+        app:layout_constraintTop_toBottomOf="@+id/btn_site"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginTop="@dimen/size_spacing_smaller" />
+
+
+    <Button
+        android:id="@+id/btn_analytic"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:text="@string/title_activity_analytics_kit"
+        app:layout_constraintLeft_toLeftOf="@+id/btn_ads"
+        app:layout_constraintRight_toRightOf="@+id/btn_ads"
+        app:layout_constraintTop_toBottomOf="@+id/btn_ads"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginTop="@dimen/size_spacing_smaller"/>
+
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
