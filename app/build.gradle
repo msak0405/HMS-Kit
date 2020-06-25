@@ -1,5 +1,6 @@
 apply plugin: 'com.android.application'
 apply plugin: 'com.huawei.agconnect'
+apply plugin: 'com.google.gms.google-services'
 
 android {
     compileSdkVersion 29
@@ -17,12 +18,7 @@ android {
 
     signingConfigs {
         release {
-            storeFile file('codelabkitnew.jks')
-            keyAlias 'cabkey'
-            keyPassword 'ur_key_pass'
-            storePassword 'your_store_pass'
-            v1SigningEnabled true
-            v2SigningEnabled true
+            'your password'
         }
     }
 
@@ -68,5 +64,10 @@ dependencies {
     implementation 'com.huawei.hms:ads-lite:13.4.29.303'
     implementation 'com.huawei.hms:push:4.0.3.301'
     implementation 'com.huawei.hms:wallet:4.0.2.300'
+    implementation 'com.huawei.hms:dtm-api:4.0.4.300'
+
+    // GMS Implementation
+    //implementation 'com.google.firebase:firebase-core:17.0.1'
+    implementation 'com.google.firebase:firebase-analytics:17.4.3'
 
 }

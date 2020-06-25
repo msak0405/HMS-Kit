@@ -31,7 +31,7 @@ public class SiteActivity extends AppCompatActivity {
     private SearchService searchService;
     TextView resultTextView;
     EditText queryInput;
-    String apiKey = "your_key";
+    String apiKey = "your key";
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {

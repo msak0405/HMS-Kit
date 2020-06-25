@@ -7,6 +7,7 @@ import android.os.Bundle;
 import android.view.View;
 
 import com.huawei.codelabkit.R;
+import com.huawei.hms.dtm.core.DynamicTagManager;
 
 public class MainActivity extends AppCompatActivity implements View.OnClickListener {
 
@@ -20,6 +21,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         findViewById(R.id.btn_site).setOnClickListener(this);
         findViewById(R.id.btn_ads).setOnClickListener(this);
         findViewById(R.id.btn_analytic).setOnClickListener(this);
+        findViewById(R.id.btn_dtm).setOnClickListener(this);
     }
 
 
@@ -42,6 +44,10 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
             case R.id.btn_analytic:
                 //startRelevantActivity(AnalyticActivity.class);
                 startRelevantActivity(AnalyticArticleActivity.class);
+                break;
+            case R.id.btn_dtm:
+
+                startRelevantActivity(DigitalTagMangActivity.class);
                 break;
             default:
                 break;

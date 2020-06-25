@@ -61,6 +61,7 @@
     <string name="title_activity_ads_kit">Ads Kit</string>
     <string name="title_activity_map_kit">Map Kit</string>
     <string name="title_activity_analytics_kit">Analytics Kit</string>
+    <string name="title_activity_dtm_kit">DTM Kit</string>
     <string name="title_activity_site_kit">Site Kit</string>
     <string name="title_activity_location_kit">Location Kit</string>
     <string name="title_all_kits">All Kits</string>
