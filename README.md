@@ -6,3 +6,4 @@ Here we discuss some of the important kits of HMS ecosystem
   - Site Kit
   - Ads Kit
   - Analytics Kit
+  - DTM Kit
